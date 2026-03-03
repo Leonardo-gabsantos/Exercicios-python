@@ -1,0 +1,14 @@
+metro = float(input("Digite quantos metros quadrados tem a área a ser pintada: "))
+
+
+litros_necessarios = metro / 3
+
+latas = int(litros_necessarios / 18)
+
+if litros_necessarios % 18 > 0:
+    latas = latas + 1
+
+valorpagar = latas * 80
+
+print("Você irá gastar", latas, "lata(s) de tinta.")
+print("O valor total a pagar é: R$", valorpagar)

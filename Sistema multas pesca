@@ -1,0 +1,5 @@
+peso = float(input("Insira o peso dos peixar pescados em kg: "))
+if peso <50:
+    print("Não vai pagar multa")
+else:
+    print("Vai pagar multa de: ", (peso-50)*4, "Reais")

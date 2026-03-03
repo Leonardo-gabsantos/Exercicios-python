@@ -1,0 +1,14 @@
+ganhohora = int(input("Digite o quanto você ganha por hora: : "))
+horatrab = int(input("Digite quantas horas você trabalha no mês: "))
+
+ganhomes = ganhohora*horatrab
+
+descimposto = (11/100)*ganhomes
+descinss = (8/100)*ganhomes
+descsind = (5/100)*ganhomes
+
+print("SALARIO BRUTO: ", ganhomes)
+print("Voce pagou de imposto de renda: ", descimposto)
+print("Voce pagou ao inss: ", descinss)
+print("Voce pagou ao sindicato: ", descsind)
+print("O salario liquido é de: ", ganhomes - (descimposto + descinss + descsind))                       

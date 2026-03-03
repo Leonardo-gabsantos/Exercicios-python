@@ -1,0 +1,26 @@
+#a>c+b nao é
+#b>a+c nao é
+#c>a+b nao é
+
+print("Descubra se sua figura é um triângulo")
+a = float(input("Digite o valor do lado A: "))
+b = float(input("Digite o valor do lado B: "))
+c = float(input("Digite o valor do lado C: "))
+
+if a>(b+c):
+    print("Não é triangulo")
+else:
+        print("É triangulo")
+
+        
+if b>(c+a):
+    print("Não é triangulo")
+else:
+        print("É triangulo")
+        
+
+if c>(b+a):
+    print("Não é triangulo")
+else:
+        print("É triangulo")
+        

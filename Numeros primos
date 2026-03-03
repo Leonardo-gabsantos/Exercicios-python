@@ -1,0 +1,17 @@
+print("Descubra se o numero é primo: \n")
+nm = int(input("Digite o numero que você quer saber: \n"))
+
+if nm%2 == 0:
+    print(f"O numero {nm} não é primo." )
+elif nm%3 ==0: 
+    print(f"O numero {nm} não é primo." )
+
+elif nm%4 ==0: 
+    print(f"O numero {nm} não é primo." )
+
+elif nm%5 ==0: 
+    print(f"O numero {nm} não é primo." )
+
+
+else:
+    print(f"O numero {nm} é primo.")

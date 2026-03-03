@@ -1,0 +1,14 @@
+print("Descubra se o numero é triangular!")
+nm = int(input("Digite um numero inteiro positivo: "))
+
+i = 0
+produto = 0
+
+while produto <nm:
+    i = i+1
+    produto = i*(i+1)*(i+2)
+
+if produto == nm:
+    print("O numero é triangular")
+else:
+    print("O numero não é triangular")

@@ -1,0 +1,19 @@
+def calcular_mdc():
+    try:
+        
+        a = abs(int(input("Digite o primeiro número inteiro positivo: ")))
+        b = abs(int(input("Digite o segundo número inteiro positivo: ")))
+
+        n1, n2 = a, b 
+
+        while b != 0:
+            resto = a % b
+            a = b
+            b = resto
+
+        print(f"\nO MDC entre {n1} e {n2} é: {a}")
+
+    except ValueError:
+        print("Erro: Por favor, digite apenas números inteiros.")
+
+calcular_mdc()

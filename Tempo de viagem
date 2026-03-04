@@ -1,0 +1,6 @@
+print("Calcule o tempo de viagem de carro")
+dist = float(input("Digite a distancia em km percorrida: "))
+vel = float(input("Digite a velocidade média da viagem em km/h: "))
+tempo = dist/vel
+
+print("O tempo dessa viagem será de: ", tempo, "horas")

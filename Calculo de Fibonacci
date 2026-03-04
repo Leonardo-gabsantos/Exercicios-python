@@ -1,0 +1,29 @@
+def calcular_fibonacci():
+    try:
+        n = int(input("Digite a posição (n) do número de Fibonacci que deseja: "))
+
+        if n <= 0:
+            print("Por favor, digite um número inteiro maior que zero.")
+            return
+
+        
+        if n == 1 or n == 2:
+            resultado = 1
+        else:
+            anterior = 1  
+            atual = 1     
+            
+            
+            for i in range(3, n + 1):
+                proximo = anterior + atual
+                anterior = atual
+                atual = proximo
+            
+            resultado = atual
+
+        print(f"O {n}º número da sequência de Fibonacci é: {resultado}")
+
+    except ValueError:
+        print("Erro: Digite apenas números inteiros.")
+
+calcular_fibonacci()

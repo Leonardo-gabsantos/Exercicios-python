@@ -1,0 +1,8 @@
+print("Calcule quanto tempo de vida você perdeu por fumar")
+dia = int(input("Digite quantos cigarros você fuma por dia"))
+ano = int(input("Por quantos anos você fumou / fuma? "))
+
+cigporano = dia*ano
+tempoperdido = cigporano*10 
+print("O tempo de vida perdido foi de: ", tempoperdido, "minutos") 
+print("Isso dá ", tempoperdido/60, "horas de vida perdidos")

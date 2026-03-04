@@ -1,0 +1,4 @@
+print("conversão de horas para minutos")
+horas = float(input("Digite o valor em horas: "))
+min = horas*60
+print("O valor de horas convertido para minutos é de: ", min)

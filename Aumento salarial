@@ -1,0 +1,7 @@
+print("Aumento salarial")
+
+antsal = float(input("Digite o seu salario antigo: "))
+aumento = float(input("Digite a porcentagem do aumento do salario: "))
+novosal = (antsal*aumento)/100
+
+print("O seu salario aumentou em", novosal,"reais")

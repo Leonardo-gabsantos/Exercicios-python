@@ -1,0 +1,3 @@
+print("Conversão de metros para centímetros")
+metro = float(input("Digite um valor em Metro: "))
+print("Conversão em cm: ", metro*100, "cm")

@@ -1,0 +1,7 @@
+print("Calcule o preço a pagar pelo uso do carro")
+
+kmperc = float(input("Insira a quantidade percorrida em KM: "))
+dias = float(input("Digite o numero de dias que o carro foi alugado: "))
+custo = (kmperc*0,15) + (dias*60)
+
+print("O valor a ser pago é de: ", custo, "reais")

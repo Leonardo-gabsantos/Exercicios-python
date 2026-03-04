@@ -1,0 +1,21 @@
+def lerusuario():
+    while True: 
+        try:
+            nome_user = input("Digite o nome de usuário: ").strip()
+            senha_user = input("Digite a sua senha de usuário: ").strip()
+
+            if not nome_user or not senha_user:
+                print("Os campos não podem estar vazios! \nTente novamente")
+                continue
+
+            if nome_user == senha_user:
+                print("ERRO: O nome não pode ser igual à senha! Tente novamente.")
+                print("-" * 30)
+            else:
+                print(f"\nUsuário '{nome_user}' cadastrado com sucesso!")
+                break 
+        
+        except Exception as e:
+            print(f"Ocorreu um erro inesperado: {e}")
+
+lerusuario()
